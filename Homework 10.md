@@ -1,8 +1,6 @@
 ---
 export_on_save:
     html: true
-html:
-    offline: true
 puppeteer:
     format: "Letter"
     timeout: 3000
