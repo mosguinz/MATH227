@@ -692,6 +692,12 @@ $$
 \end{align*}
 $$
 
+<div><note>
+
+Is the center $x=1$? With the range of convergence of $\frac{1}{3}$? Should the question specify a center of convergence or do we infer it by rearranging?
+
+</note></div>
+
 > ### (ii) $\frac{1}{(1-2x)^2}$
 
 > ### (iii) $\ln(1+x)$
