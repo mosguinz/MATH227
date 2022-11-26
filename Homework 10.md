@@ -626,11 +626,26 @@ $$
     &\implies f'''(x)=\frac{8}{27}x^{-7/3} \\
 \end{align*}
 \\
+\begin{darray}{cll}
+    f(8) &= 8^{2/3} &= 4\\
+    f'(8) &= \frac{2}{3}\cdot 8^{-1/3}  &= \frac{1}{3}\\
+    f''(8) &= -\frac{2}{9}\cdot 8^{-4/3} &= -\frac{1}{72}\\
+    f'''(8) &= \frac{8}{27}\cdot 8^{-7/3} &= \frac{1}{432}\\
+\end{darray}
+\\
 \begin{align*}
-    \therefore\sum_{n=0}^\infty\frac{f'''(8)}{3!}(x-8)^3
-    &= \sum_{n=0}^\infty\frac{\frac{8}{27}(8^{-7/3})}{3!}(x-8)^3 \\
-    &= \sum_{n=0}^\infty\frac{1}{432\cdot3!}(x-8)^3 \\
-    &= \sum_{n=0}^\infty\frac{1}{2592}(x-8)^3 \\
+    \therefore\sum_{n=0}^3\frac{f^{(n)}(x)}{n!}(x-8)^n
+    &= f(8) + f'(8)(x-8)
+    +\frac{f''(8)(x-8)^2}{2!}
+    +\frac{f''(8)(x-8)^3}{3!} \\
+    &= 4
+    +\frac{x-8}{3}
+    -\frac{(x-8)^2}{72\cdot2!}
+    +\frac{(x-8)^3}{432\cdot3!} \\
+    &= 4
+    +\frac{x-8}{3}
+    -\frac{(x-8)^2}{144}
+    +\frac{(x-8)^3}{2592}
 \end{align*}
 $$
 
@@ -643,11 +658,18 @@ $$
     &\implies f''(x) = (\sec x\tan^2 x) + \sec^3x \\
 \end{align*}
 \\
+\begin{darray}{cll}
+    f(0) &= \sec 0 &= 1\\
+    f'(0) &= \sec 0\tan 0 &= 0\\
+    f''(0) &= (\sec 0\tan^2 0) + \sec^30 &= 1\\
+\end{darray}
+\\
 \begin{align*}
-    \therefore\sum_{n=0}^\infty\frac{f''(0)}{2!}(x-0)^2
-    &= \sum_{n=0}^\infty
-    \frac{(\sec 0\tan^2 0) + \sec^30}{2}x^2 \\
-    &= \sum_{n=0}^\infty\frac{1}{2}x^2
+    \therefore\sum_{n=0}^2\frac{f^{(n)}(x)}{n!}(x-0)^n
+    &= f(0) + f'(0)x
+    +\frac{f''(0)x^2}{2!} \\
+    &= 1 + 0x + \frac{x^2}{2!} \\
+    &= 1 + \frac{x^2}{2}
 \end{align*}
 $$
 
