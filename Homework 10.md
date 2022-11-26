@@ -1,4 +1,5 @@
 ---
+print_background: true
 export_on_save:
     html: true
 puppeteer:
