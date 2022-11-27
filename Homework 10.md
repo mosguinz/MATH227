@@ -92,7 +92,7 @@ $$
     \right|
 \end{align*}
 \\
-\therefore\lim_{n\to\infty} \left|\frac{a_{n+1}}{a_n}\right|=0<1
+\therefore\lim_{n\to\infty} \left|\frac{a_{n+1}}{a_n}\right|=0<1.
 $$
 
 By ratio test, the series converges absolutely.
@@ -127,7 +127,7 @@ $$
     \right|
 \end{align*}
 \\
-\therefore \lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|=\frac{1}{3^3}=\frac{1}{27}<1
+\therefore \lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right|=\frac{1}{3^3}=\frac{1}{27}<1.
 $$
 
 By ratio test, the series converges absolutely.
@@ -148,8 +148,7 @@ $$
 and
 $$
 \lim_{n\to\infty}|a_n|^\frac{1}{n}
-= \lim_{n\to\infty}\frac{n}{3n+1}=\frac{1}{3}\\
-\therefore \lim_{n\to\infty}|a_n|^\frac{1}{n}< 0.
+= \lim_{n\to\infty}\frac{n}{3n+1}=\frac{1}{3}<1.
 $$
 
 By root test, the series converges absolutely.
