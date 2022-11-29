@@ -782,4 +782,47 @@ Since $2n\to\infty$, the series diverges by divergence test at $\displaystyle x=
 
 As such, the interval of convergence for a series centered at $x=0$ is $\displaystyle\(-\frac{1}{2},\frac{1}{2}\)$.
 
-> ### (iii) $\ln(1+x)$
+### (iii) $\ln(1+x)$
+
+Let the center of convergence be at $x=0$.
+
+$$
+\frac{1}{1+x} = \sum_{n=0}^\infty(-1)^n x^n,\quad |x|<1
+$$
+
+Since
+$$
+\int\frac{1}{1+x}\dd x = \ln(1+x),
+$$
+
+then
+$$
+\begin{align*}
+    \ln(1+x)
+    &= \sum_{n=0}^\infty\frac{(-1)^nx^{n+1}}{n+1},
+    \quad |x|<1.
+\end{align*}
+$$
+
+And since
+$$
+|x|<1\iff-1<x<1,
+$$
+
+the series converges within $-1<x<1$.
+
+Then,
+$$
+x=-1\implies
+\sum_{n=0}^\infty(-1)^{2n+1}\frac{1}{n+1}
+=\sum_{n=0}^\infty -\frac{1}{n+1}
+$$
+
+Since $\displaystyle-\frac{1}{n+1}\approx-\frac{1}{n}$ for large values of $n$, the series diverges at $x=-1$ by $p$-series test.
+
+$$
+x=1\implies
+\sum_{n=0}^\infty(-1)^n\frac{1}{n+1}
+$$
+
+Since $\displaystyle\frac{1}{n+1}\to0$, the series converge at $x=1$ by alternating series test.
