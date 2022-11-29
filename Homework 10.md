@@ -730,6 +730,56 @@ Since $\displaystyle\frac{2^n}{2^{n+1}}\to\frac{1}{2}$, the series diverges by d
 
 As such, the interval of convergence for a series centered at $x=0$ is $\displaystyle\(-\frac{2}{3},\frac{2}{3}\)$.
 
-> ### (ii) $\frac{1}{(1-2x)^2}$
+### (ii) $\frac{1}{(1-2x)^2}$
+
+Let the center of convergence be at $x=0$.
+
+$$
+\begin{align*}
+    \frac{1}{1-2x} &= \sum_{n=0}^\infty(2x)^n,
+    \quad|2x|<1 \\
+    &= \sum_{n=0}^\infty 2^n x^n,
+    \quad|x|<\frac{1}{2} \\
+\end{align*}
+$$
+
+Since
+$$
+\frac{\dd}{\dd x}\(\frac{1}{1-2x}\) = \frac{1}{(1-2x)^2},
+$$
+
+then
+$$
+\begin{align*}
+    \frac{1}{(1-2x)^2} &=
+    \sum_{n=1}^\infty 2n(2x)^{n-1},\quad |x|<\frac{1}{2} \\
+    &=
+    \sum_{n=1}^\infty 2^nn x^{n-1},\quad |x|<\frac{1}{2}.
+\end{align*}
+$$
+
+And since
+$$
+|x|<-\frac{1}{2}\iff-\frac{1}{2}<x<\frac{1}{2},
+$$
+
+the series converges within $\displaystyle-\frac{1}{2}<x<\frac{1}{2}$.
+
+Then,
+$$
+x=-\frac{1}{2}\implies
+\sum_{n=1}^\infty(-1)^{n-1}2n
+$$
+
+Since $2n\to\infty$, the series diverges by divergence test at $\displaystyle x=-\frac{1}{2}$.
+
+$$
+x=\frac{1}{2}\implies
+\sum_{n=1}^\infty 2n
+$$
+
+Since $2n\to\infty$, the series diverges by divergence test at $\displaystyle x=\frac{1}{2}$.
+
+As such, the interval of convergence for a series centered at $x=0$ is $\displaystyle\(-\frac{1}{2},\frac{1}{2}\)$.
 
 > ### (iii) $\ln(1+x)$
