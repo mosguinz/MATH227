@@ -683,26 +683,52 @@ $$
 
 Identify their interval of convergence. You may need to use differentiation and integration of the Taylor series.
 
+> **Center of convergence not specified**
+> The following answers for questions 5(i) through 5(iii) assumes that the center of convergence is at $x=0$.
+
 ### (i) $\frac{1}{2+3x}$
+
+Let the center of convergence be at $x=0$.
 
 $$
 \begin{align*}
-    \frac{1}{2+3x} &= \frac{1}{2+3(x-1)+3} \\
-    &= \frac{1}{5+3(x-1)} \\
-    &= \frac{1}{5}\cdot\frac{1}{1+3(x-1)} \\
-    &= \frac{1}{5}\cdot\frac{1}{1-(-3(x-1))} \\
-    &= \sum_{n=0}^\infty\frac{1}{5}(-3(x-1))^n
-    ,\quad \left|-3(x-1)\right|<1 \\
-    &= \sum_{n=0}^\infty\frac{1}{5}(-3)^n(x-1)^n
-    ,\quad \left|x-1\right|<\frac{1}{3} \\
+    \frac{1}{2+3x} &= \frac{1}{2(1+\frac{3}{2}x)} \\
+    &= \frac{1}{2}\cdot\frac{1}{1-(-\frac{3}{2}x)} \\
+    &= \sum_{n=0}^\infty\frac{1}{2}\(-\frac{3}{2}x\)^n,
+    \quad\left|-\frac{3}{2}x\right| < 1 \\
+    &= \sum_{n=0}^\infty
+    \frac{(-3)^n}{2(2)^n} x^n,\quad|x|<\frac{2}{3} \\
+    &= \sum_{n=0}^\infty
+    \frac{(-3)^n}{2^{n+1}} x^n,\quad|x|<\frac{2}{3}
 \end{align*}
 $$
 
-<div><note>
+Since
+$$
+|x|<\frac{2}{3}\iff-\frac{2}{3}<x<\frac{2}{3},
+$$
+the series converges within $\displaystyle-\frac{2}{3}<x<\frac{2}{3}$.
 
-Is the center $x=1$? With the range of convergence of $\frac{1}{3}$? Should the question specify a center of convergence or do we infer it by rearranging?
+Then,
+$$
+x=-\frac{2}{3}
+\implies\sum_{n=0}^\infty\frac{(-3)^n}{2^{n+1}}
+\(-\frac{2}{3}\)^n
+= \sum_{n=0}^\infty\frac{2^n}{2^{n+1}}
+$$
 
-</note></div>
+Since $\displaystyle\frac{2^n}{2^{n+1}}\to\frac{1}{2}$, the series diverges by divergence test at $\displaystyle x=-\frac{2}{3}$.
+
+$$
+x=\frac{2}{3}
+\implies\sum_{n=0}^\infty\frac{(-3)^n}{2^{n+1}}
+\(\frac{2}{3}\)^n
+= \sum_{n=0}^\infty(-1)^n\frac{2^n}{2^{n+1}}
+$$
+
+Since $\displaystyle\frac{2^n}{2^{n+1}}\to\frac{1}{2}$, the series diverges by divergence (and therefore the limit of the summand does not exist) test at $\displaystyle x=\frac{2}{3}$.
+
+As such, the interval of convergence for a series centered at $x=0$ is $\displaystyle\(-\frac{2}{3},\frac{2}{3}\)$.
 
 > ### (ii) $\frac{1}{(1-2x)^2}$
 
