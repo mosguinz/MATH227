@@ -49,13 +49,13 @@ $$
 =\lim_{n\to\infty}\frac{3n^4+2n^3+2n}{n^4-1}=3.
 $$
 
-Since $\displaystyle\sum_{n=1}^\infty b_n = \sum_{n=1}^\infty\frac{1}{n}$ is a $p$-series such that $p=1$, $\displaystyle\sum_{n=1}^\infty b_n$ diverges. Consequently, by limit comparison test, $\displaystyle\sum_{n=1}^\infty a_n$ also diverges.
+Since $\displaystyle\frac{a_n}{b_n}\to 3$ and $\displaystyle\sum_{n=1}^\infty b_n = \sum_{n=1}^\infty\frac{1}{n}$ is a $p$-series such that $p=1$ (and as such, diverges), by limit comparison test $\displaystyle\sum_{n=2}^\infty \frac{3n^3+2n^2+2}{n^4-1}$ also diverges.
 
 ### (iii) $\sum_{n=1}^\infty \frac{n^{1/3}}{(n^{3/2}-1)^{1/2}}$
 
-At $n=1$, the first term is undefined. Therefore, the sum does not exist.
+The first term is undefined. Therefore, the sum does not exist.
 $$
-\frac{1^{1/3}}{(1^{3/2}-1)^{1/2}}=\frac{1}{0}
+n=1\implies\frac{1^{1/3}}{(1^{3/2}-1)^{1/2}}=\frac{1}{0}
 $$
 
 ### (iv) $\sum_{n=1}^\infty \frac{n^2\ln n}{n^5+2n-1}$
@@ -74,7 +74,7 @@ Let $\displaystyle a_n=(-1)^{n^2}\frac{n+1}{n!}$.
 Then,
 $$
 a_{n+1}=\frac{(-1)^{(n+1)^2}(n+1)+1}{(n+1)!}
-=\frac{(-1)^{n^2+2n+1}n+2}{(n+1)n!}.
+=\frac{(-1)^{n^2+2n+1}n+2}{(n+1)n!}
 $$
 
 and
@@ -166,7 +166,7 @@ $$
 =0.
 $$
 
-By alternating series test, the series converge.
+By alternating series test, the series converges.
 
 ### (ix) $\sum_{n=2}^\infty (-1)^n\ln n$
 
@@ -228,7 +228,7 @@ x=2\implies
 =\sum_{n=0}^\infty\frac{1}{n}
 $$
 
-At $x=2$, the series is a $p$-series such that $p=1$. Therefore, the series diverge at $x=2$.
+At $x=2$, the series is a $p$-series such that $p=1$. Therefore, the series diverges at $x=2$.
 
 As such:
 
@@ -332,7 +332,7 @@ x=-1\implies
 \sum_{n=2}^\infty \frac{1}{n\ln n}(-1)^n
 $$
 
-Since $\displaystyle\frac{1}{n\ln n}\to0$, by alternating series test, the series converge at $x=-1$.
+Since $\displaystyle\frac{1}{n\ln n}\to0$, by alternating series test, the series converges at $x=-1$.
 
 $$
 x=1\implies
@@ -361,7 +361,7 @@ $$
 \end{align*}
 $$
 
-By integral test, the series diverge at $x=1$.
+By integral test, the series diverges at $x=1$.
 
 As such:
 
@@ -430,7 +430,7 @@ x=\frac{1}{2}\implies
 \end{align*}
 $$
 
-Since $\displaystyle\(2+\frac{1}{n}\)^n \(\frac{1}{2}\)^n\to\sqrt{e}$, by divergence test, the series diverge at $\displaystyle x=\frac{1}{2}$.
+Since $\displaystyle\(2+\frac{1}{n}\)^n \(\frac{1}{2}\)^n\to\sqrt{e}$, by divergence test, the series diverges at $\displaystyle x=\frac{1}{2}$.
 
 As such:
 
