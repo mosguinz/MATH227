@@ -60,12 +60,18 @@ $$
 
 ### (iv) $\sum_{n=1}^\infty \frac{n^2\ln n}{n^5+2n-1}$
 
-For sufficiently large $n$,
+Let $\displaystyle a_n = \frac{n^2\ln n}{n^5+2n-1}$ and $\displaystyle b_n = \frac{n^\epsilon}{n^3}$ for some small values of $\displaystyle\epsilon>0$.
+
+Then,
 $$
-\frac{n^2\ln n}{n^5+2n-1}\approx\frac{1}{n^3}.
+\frac{a_n}{b_n} = \frac{n^2\ln n}{n^5+2n-1}\cdot
+\frac{n^3}{n^\epsilon}
+= \frac{n^5\ln n}{n^\epsilon(n^5+2n-1)} \\
+\therefore \lim_{n\to\infty}\frac{a_n}{b_n}
+= \lim_{n\to\infty}\frac{\ln n}{n^\epsilon} = 0.
 $$
 
-Since $\displaystyle\sum_{n=1}^\infty\frac{1}{n^3}$ is a $p$-series such that $p=3$, the series converges.
+Since $\displaystyle\frac{a_n}{b_n}\to0$ and $\displaystyle\sum_{n=0}^\infty b_n = \sum_{n=0}^\infty\frac{n^\epsilon}{n^3}$ converges by $p$-series for $0<\epsilon<2$, then by limit comparison test, $\displaystyle\sum_{n=0}^\infty\frac{n^2\ln n}{n^5+2n-1}$ also converges.
 
 ### (v) $\sum_{n=1}^\infty (-1)^{n^2}\frac{n+1}{n!}$
 
