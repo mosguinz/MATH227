@@ -80,7 +80,7 @@ Let $\displaystyle a_n=(-1)^{n^2}\frac{n+1}{n!}$.
 Then,
 $$
 a_{n+1}=\frac{(-1)^{(n+1)^2}(n+1)+1}{(n+1)!}
-=\frac{(-1)^{n^2+2n+1}n+2}{(n+1)n!}
+=\frac{(-1)^{n^2+2n+1}(n+2)}{(n+1)n!}
 $$
 
 and
@@ -88,7 +88,7 @@ $$
 \begin{align*}
     \left|\frac{a_{n+1}}{a_n}\right|
     &= \left|
-        \frac{(-1)^{\cancel{n^2}+2n+1}n+2}
+        \frac{(-1)^{\cancel{n^2}+2n+1}(n+2)}
         {(n+1)\cancel{n!}}
         \cdot
         \frac{\cancel{n!}}{\cancel{(-1)^{n^2}}(n+1)}
