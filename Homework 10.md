@@ -826,3 +826,5 @@ x=1\implies
 $$
 
 Since $\displaystyle\frac{1}{n+1}\to0$, the series converge at $x=1$ by alternating series test.
+
+As such, the interval of convergence for a series centered at $x=0$ is $(-1,1]$.
