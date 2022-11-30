@@ -290,11 +290,92 @@ html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-
   src: url(https://fonts.gstatic.com/s/robotomono/v22/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_Of2PQw.ttf) format('truetype');
 }
 .markdown-preview.markdown-preview {
+  /* === Style from Joplin === */
+  /* === Style from Joplin ends === */
   font-family: "neue-haas-grotesk-text", "Neue Haas Grotesk Text Pro";
   font-style: normal;
   font-weight: 400;
   /* Change font to Helvetica except for math area */
   /* Override codeblocks to use monospace fonts */
+}
+.markdown-preview.markdown-preview p,
+.markdown-preview.markdown-preview h1,
+.markdown-preview.markdown-preview h2,
+.markdown-preview.markdown-preview h3,
+.markdown-preview.markdown-preview h4,
+.markdown-preview.markdown-preview h5,
+.markdown-preview.markdown-preview h6,
+.markdown-preview.markdown-preview ul,
+.markdown-preview.markdown-preview table {
+  margin-top: 0.6em;
+  margin-bottom: 1.35em;
+  /*
+        Adds support for RTL text in the note body. It automatically detects the direction using the content.
+        Issue: https://github.com/laurent22/joplin/issues/3991
+        */
+  unicode-bidi: plaintext;
+}
+.markdown-preview.markdown-preview h1,
+.markdown-preview.markdown-preview h2,
+.markdown-preview.markdown-preview h3,
+.markdown-preview.markdown-preview h4,
+.markdown-preview.markdown-preview h5,
+.markdown-preview.markdown-preview h6,
+.markdown-preview.markdown-preview ul,
+.markdown-preview.markdown-preview table {
+  margin-bottom: 0.65em;
+}
+.markdown-preview.markdown-preview h1,
+.markdown-preview.markdown-preview h2,
+.markdown-preview.markdown-preview h3,
+.markdown-preview.markdown-preview h4,
+.markdown-preview.markdown-preview h5,
+.markdown-preview.markdown-preview h6 {
+  line-height: 1.5em;
+}
+.markdown-preview.markdown-preview h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 0.3em;
+}
+.markdown-preview.markdown-preview h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-bottom: 0.1em;
+}
+.markdown-preview.markdown-preview h3 {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.markdown-preview.markdown-preview h4,
+.markdown-preview.markdown-preview h5,
+.markdown-preview.markdown-preview h6 {
+  font-size: 1em;
+  font-weight: bold;
+}
+.markdown-preview.markdown-preview a {
+  color: #155BDA;
+}
+.markdown-preview.markdown-preview ul,
+.markdown-preview.markdown-preview ol {
+  padding-left: 0;
+  margin-left: 1.7em;
+}
+.markdown-preview.markdown-preview li {
+  margin-bottom: 0.4em;
+}
+.markdown-preview.markdown-preview li p {
+  margin-top: 0.2em;
+  margin-bottom: 0;
+}
+.markdown-preview.markdown-preview blockquote {
+  margin: 16px 0;
+  font-size: inherit;
+  padding: 2px 50px 0.5px 20px;
+  color: #ffffff;
+  background-color: #3c3c3c;
+  border-left: 4px solid #515151;
 }
 .markdown-preview.markdown-preview h1,
 .markdown-preview.markdown-preview h2,
@@ -308,7 +389,7 @@ html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-
 }
 .markdown-preview.markdown-preview table th,
 .markdown-preview.markdown-preview table td {
-  font-family: "Neue Haas Grotesk Text Pro";
+  font-family: "neue-haas-grotesk-text", "Neue Haas Grotesk Text Pro";
 }
 .markdown-preview.markdown-preview pre,
 .markdown-preview.markdown-preview code {
