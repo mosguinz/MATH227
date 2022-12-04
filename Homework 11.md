@@ -25,10 +25,11 @@ $$
     \gdef\arraystretch{2.2em}
 $$
 
-**Mos Kullathon**
-921425216
 
 # Homework 11
+
+**Mos Kullathon**
+921425216
 
 ## 1.
 
@@ -40,40 +41,40 @@ $$
 
 ### (b) For (i) above, find the equation of the tangent line at $\frac{\pi }{4}$
 
-## 2. Find the arc length of the curve $x=t^3, y=\frac{3t^2}{2}$ when $0\le t\le\sqrt{3}$.
+> ## 2. Find the arc length of the curve $x=t^3, y=\frac{3t^2}{2}$ when $0\le t\le\sqrt{3}$.
 
-## 3.
+> ## 3.
 
-### (a) Use Desmos to draw the graph $x(t)=\cos t, y(t)=\sin(3t)$ for $\pi\le t\le\pi$.
+> ### (a) Use Desmos to draw the graph $x(t)=\cos t, y(t)=\sin(3t)$ for $\pi\le t\le\pi$.
 
-### (b) Find the area of the bounded region.
+> ### (b) Find the area of the bounded region.
 
-### (c\) Find the volume of solid of revolution by revloving the curve along the y-axis.
+> ### (c\) Find the volume of solid of revolution by revloving the curve along the y-axis.
 
-### (d) Write down the arc length integral of this curve from $t=0$ to $t=\pi/2$.
+> ### (d) Write down the arc length integral of this curve from $t=0$ to $t=\pi/2$.
 
-## 4. Convert the following points into polar coordinates:
+> ## 4. Convert the following points into polar coordinates:
 
-### (a) $(-4,4)$
+> ### (a) $(-4,4)$
 
-### (b) $(3,3\sqrt{3})$
+> ### (b) $(3,3\sqrt{3})$
 
-### (c\) $(\sqrt{3}, -1)$
+> ### (c\) $(\sqrt{3}, -1)$
 
-### (d) $(-6,0)$
+> ### (d) $(-6,0)$
 
-## 5. Consider the polar equation $r=2+\cos(2\theta)$.
+> ## 5. Consider the polar equation $r=2+\cos(2\theta)$.
 
-### (a) Use Desmos to sketch the picture.
+> ### (a) Use Desmos to sketch the picture.
 
-### (b) Find the slope of the tangent line at $\theta=\pi/4$.
+> ### (b) Find the slope of the tangent line at $\theta=\pi/4$.
 
-### (c\) Find the area of the bounded region of the graph.
+> ### (c\) Find the area of the bounded region of the graph.
 
-## 6. Consider the polar equation $r=\theta^2$.
+> ## 6. Consider the polar equation $r=\theta^2$.
 
-### (a) Use Desmos to sketch the picture for $0\le\theta\le4\pi$.
+> ### (a) Use Desmos to sketch the picture for $0\le\theta\le4\pi$.
 
-### (b) Find the slope of the tangent line at $\theta=3\pi/4$.
+> ### (b) Find the slope of the tangent line at $\theta=3\pi/4$.
 
-### (c\) Find the arc length of the curve for $0\le\theta\le4\pi$.
+> ### (c\) Find the arc length of the curve for $0\le\theta\le4\pi$.
