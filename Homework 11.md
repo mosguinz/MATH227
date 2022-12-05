@@ -31,11 +31,9 @@ $$
 **Mos Kullathon**
 921425216
 
-## 1.
+## 1(a) Find $\frac{\dd y}{\dd x}$ and $\frac{\dd^2y}{\dd x^2}$ for the following parametrized curve:
 
-### (a) Find $\frac{\dd y}{\dd x}$ and $\frac{\dd^2y}{\dd x^2}$ for the following parametrized curve:
-
-#### (i) $x=\sec t, y=\tan t$
+### (i) $x=\sec t, y=\tan t$
 
 $$
 x = \sec t \implies \frac{\dd x}{\dd t} = \sec t\tan t \\
@@ -53,7 +51,7 @@ y = \tan t \implies \frac{\dd y}{\dd t} = \sec^2 t \\
 =-\cot^3 t
 $$
 
-#### (ii) $x=2t^2, y=t^4$
+### (ii) $x=2t^2, y=t^4$
 
 $$
 x = 2t^2 \implies \frac{\dd x}{\dd t} = 4t \\
@@ -64,7 +62,7 @@ y = t^4 \implies \frac{\dd y}{\dd t} = 4t^3 \\
 =\frac{2t}{4t} = \frac{t}{2}
 $$
 
-### (b) For (i) above, find the equation of the tangent line at $\frac{\pi }{4}$
+## (b) For (i) above, find the equation of the tangent line at $\frac{\pi }{4}$
 
 $$
 \begin{align*}
@@ -87,9 +85,7 @@ $$
 
 > ## 2. Find the arc length of the curve $x=t^3, y=\frac{3t^2}{2}$ when $0\le t\le\sqrt{3}$.
 
-> ## 3.
-
-> ### (a) Use Desmos to draw the graph $x(t)=\cos t, y(t)=\sin(3t)$ for $\pi\le t\le\pi$.
+> ## 3(a) Use Desmos to draw the graph $x(t)=\cos t, y(t)=\sin(3t)$ for $\pi\le t\le\pi$.
 
 > ### (b) Find the area of the bounded region.
 
