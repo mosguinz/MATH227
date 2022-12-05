@@ -1,3 +1,12 @@
+---
+print_background: true
+export_on_save:
+    html: true
+puppeteer:
+    format: "Letter"
+    timeout: 3000
+---
+
 $$
     % Differentials d[something]/d[something]
     \gdef\diff#1#2{\frac{\mathrm{d}#1}{\mathrm{d}#2}}
