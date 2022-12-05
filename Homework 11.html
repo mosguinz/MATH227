@@ -297,6 +297,7 @@ html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-
   font-weight: 400;
   /* Change font to Helvetica except for math area */
   /* Override codeblocks to use monospace fonts */
+  /* Add scroll bar for long equations */
 }
 .markdown-preview.markdown-preview p,
 .markdown-preview.markdown-preview h1,
@@ -395,6 +396,10 @@ html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-
 .markdown-preview.markdown-preview code {
   font-family: "SF Mono", "Roboto Mono", monospace;
 }
+.markdown-preview.markdown-preview .katex {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
 .markdown-preview.markdown-preview .reveal .slides {
   text-align: left;
 }
@@ -413,6 +418,13 @@ html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-
   .markdown-preview.markdown-preview blockquote,
   .markdown-preview.markdown-preview li {
     color: #000000;
+  }
+  .markdown-preview.markdown-preview pre,
+  .markdown-preview.markdown-preview code,
+  .markdown-preview.markdown-preview .katex {
+    overflow-wrap: break-word;
+    white-space: normal;
+    overflow: hidden;
   }
 }
 @media print, screen {
