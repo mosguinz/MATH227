@@ -82,8 +82,39 @@ y-1 = \sqrt{2}(x-\sqrt{2}) \\
 y = \sqrt{2}x + 3.
 $$
 
+## 2. Find the arc length of the curve $x=t^3, y=\frac{3t^2}{2}$ when $0\le t\le\sqrt{3}$.
 
-> ## 2. Find the arc length of the curve $x=t^3, y=\frac{3t^2}{2}$ when $0\le t\le\sqrt{3}$.
+$$
+x=t^3 \implies \frac{\dd x}{\dd t} = 3t^2 \\
+y = \frac{3t^2}{2} \implies \frac{\dd y}{\dd t} = 3t
+$$
+
+The arc length $L$ of the curve for $0\le t\le\sqrt{3}$ is
+$$
+\begin{align*}
+    L &= \int_0^{\sqrt{3}}\sqrt{(3t^2)^2+(3t)^2} \dd t \\
+    &= \int_0^{\sqrt{3}}\sqrt{9t^4+9t^2} \dd t \\
+    &= \int_0^{\sqrt{3}}\sqrt{9t^2(t^2+1)} \dd t \\
+    &= 3\int_0^{\sqrt{3}}t\sqrt{t^2+1}\dd t
+\end{align*}
+\\
+\begin{darray}{cc}
+    u = t^2+1 &\implies& \dd u = 2t\dd t \\
+    &\iff& \dd t = \frac{\dd u}{2t} \\
+    t = 0 &\implies& u = 0^2+1=1 \\
+    t = \sqrt{3} &\implies& u = \sqrt{3}^2 + 1 = 4
+\end{darray}
+\\
+\begin{align*}
+    L = 3\int_0^{\sqrt{3}}t\sqrt{t^2+1}\dd t
+    &= 3\int_1^4 t\sqrt{u} \frac{\dd u}{2t} \\
+    &= \frac{3}{2}\int_1^4 \sqrt{u}\dd u \\
+    &= \frac{3}{2} \[\frac{2u^{3/2}}{3}\]_1^4 \\
+    &= \frac{3}{2} \(\frac{16}{3}-\frac{2}{3}\) \\
+    &= \frac{14}{2} \\
+    &= 7.
+\end{align*}
+$$
 
 > ## 3(a) Use Desmos to draw the graph $x(t)=\cos t, y(t)=\sin(3t)$ for $\pi\le t\le\pi$.
 
