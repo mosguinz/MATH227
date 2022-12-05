@@ -7,11 +7,6 @@ puppeteer:
     timeout: 3000
 ---
 
-# Homework 10
-
-**Mos Kullathon**
-921425216
-
 $$
     % Differentials d[something]/d[something]
     \gdef\diff#1#2{\frac{\mathrm{d}#1}{\mathrm{d}#2}}
@@ -29,6 +24,11 @@ $$
     % More spacing between lines in arrays (override by using \[5em])
     \gdef\arraystretch{2.2em}
 $$
+
+# Homework 10
+
+**Mos Kullathon**
+921425216
 
 ## 1\. Determine whether the following series is convergent or divergent. We may use any tests available
 
