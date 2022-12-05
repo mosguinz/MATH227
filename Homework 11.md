@@ -37,9 +37,53 @@ $$
 
 #### (i) $x=\sec t, y=\tan t$
 
+$$
+x = \sec t \implies \frac{\dd x}{\dd t} = \sec t\tan t \\
+y = \tan t \implies \frac{\dd y}{\dd t} = \sec^2 t \\
+\therefore\frac{\dd y}{\dd x}
+= \frac{\sec^2t}{\sec t\tan t}
+=\frac{\sec t}{\tan t}
+=\frac{1}{\cos t}\frac{\cos t}{\sin t}
+=\frac{1}{\sin t}
+=\csc t \\
+\implies\frac{\dd^2y}{\dd x^2}
+=\frac{\frac{\dd}{\dd t}\csc t}{\sec t\tan t}
+=-\frac{\cos t}{\sin^2 t\sec t\tan t}
+=-\frac{\cos^2 t}{\sin^2 t\tan t}
+=-\cot^3 t
+$$
+
 #### (ii) $x=2t^2, y=t^4$
 
+$$
+x = 2t^2 \implies \frac{\dd x}{\dd t} = 4t \\
+y = t^4 \implies \frac{\dd y}{\dd t} = 4t^3 \\
+\therefore \frac{\dd y}{\dd x} = \frac{4t^3}{4t} = t^2 \\
+\implies\frac{\dd^2 y}{\dd x^2}
+=\frac{\frac{\dd}{\dd t}t^2}{4t}
+=\frac{2t}{4t} = \frac{t}{2}
+$$
+
 ### (b) For (i) above, find the equation of the tangent line at $\frac{\pi }{4}$
+
+$$
+\begin{align*}
+    t=\frac{\pi}{4}
+    &\implies
+    \frac{\dd y}{\dd x} = \csc\frac{\pi}{4} = \sqrt{2} \\
+    &\implies
+    x=\sec\frac{\pi}{4} = \sqrt{2}\\
+    &\implies
+    y= \tan\frac{\pi}{4} = 1
+\end{align*}
+$$
+
+Then, the equation of the tangent line to the curve at $\displaystyle t=\frac{\pi}{4}$ is
+$$
+y-1 = \sqrt{2}(x-\sqrt{2}) \\
+y = \sqrt{2}x + 3.
+$$
+
 
 > ## 2. Find the arc length of the curve $x=t^3, y=\frac{3t^2}{2}$ when $0\le t\le\sqrt{3}$.
 
