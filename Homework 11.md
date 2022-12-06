@@ -116,9 +116,23 @@ $$
 \end{align*}
 $$
 
-> ## 3(a) Use Desmos to draw the graph $x(t)=\cos t, y(t)=\sin(3t)$ for $\pi\le t\le\pi$.
+## 3(a) Use Desmos to draw the graph $x(t)=\cos t, y(t)=\sin(3t)$ for $-\pi\le t\le\pi$.
 
-> ### (b) Find the area of the bounded region.
+<center>
+
+![x(t)=cos t, y(t)=sin(3t)$ on −π≤t≤π](assets/hw_11_3a.svg)
+
+</center>
+
+### (b) Find the area of the bounded region.
+
+$$
+\begin{darray}{cc}
+    x(t) = \cos t&\implies& x'(t)=-\sin t \\
+    y(t)=\sin3t &\implies& y'(t)=3\cos3t
+\end{darray}
+$$
+
 
 > ### (c\) Find the volume of solid of revolution by revloving the curve along the y-axis.
 
@@ -137,6 +151,11 @@ $$
 > ## 5. Consider the polar equation $r=2+\cos(2\theta)$.
 
 > ### (a) Use Desmos to sketch the picture.
+> <center>
+>
+> ![r=2+cos(2θ)](assets/hw_11_5a.svg)
+>
+> </center>
 
 > ### (b) Find the slope of the tangent line at $\theta=\pi/4$.
 
@@ -145,6 +164,11 @@ $$
 > ## 6. Consider the polar equation $r=\theta^2$.
 
 > ### (a) Use Desmos to sketch the picture for $0\le\theta\le4\pi$.
+> <center>
+>
+> ![r=θ^2 on 0≤θ≤4π](assets/hw_11_6a.svg)
+>
+> </center>
 
 > ### (b) Find the slope of the tangent line at $\theta=3\pi/4$.
 
