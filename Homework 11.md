@@ -116,7 +116,7 @@ $$
 \end{align*}
 $$
 
-## 3(a) Use Desmos to draw the graph $x(t)=\cos t, y(t)=\sin(3t)$ for $-\pi\le t\le\pi$.
+## 3(a) Use Desmos to draw the graph $x(t)=\cos t, y(t)=\sin^3t$ for $-\pi\le t\le\pi$.
 
 <center>
 
@@ -129,7 +129,7 @@ $$
 $$
 \begin{darray}{cc}
     x(t) = \cos t&\implies& x'(t)=-\sin t \\
-    y(t)=\sin3t &\implies& y'(t)=3\cos3t
+    y(t)=\sin^3 t &\implies& y'(t)=3\sin^2 t\cos t
 \end{darray}
 $$
 
