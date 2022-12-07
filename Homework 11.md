@@ -136,7 +136,18 @@ $$
 
 > ### (c\) Find the volume of solid of revolution by revloving the curve along the y-axis.
 
-> ### (d) Write down the arc length integral of this curve from $t=0$ to $t=\pi/2$.
+### (d) Write down the arc length integral of this curve from $t=0$ to $t=\pi/2$.
+
+$$
+\begin{align*}
+    L &= \int_0^\frac{\pi}{2} \sqrt{x'(t)^2+y'(t)^2}\dd t \\
+    &= \int_0^\frac{\pi}{2}
+    \sqrt{\sin^2 t + 9\sin^4 t\cos^2 t} \dd t \\
+    &= \int_0^\frac{\pi}{2}
+    \sqrt{\sin^2t(1+9\sin^2t\cos^2t)}\dd t
+\end{align*}
+$$
+
 
 ## 4. Convert the following points into polar coordinates:
 
