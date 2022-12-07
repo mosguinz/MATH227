@@ -124,14 +124,46 @@ $$
 
 </center>
 
-> ### (b) Find the area of the bounded region.
->
-> $$
-> \begin{darray}{cc}
->     x(t) = \cos t&\implies& x'(t)=-\sin t \\
->     y(t)=\sin^3 t &\implies& y'(t)=3\sin^2 t\cos t
-> \end{darray}
-> $$
+### (b) Find the area of the bounded region.
+
+$$
+\begin{darray}{cc}
+    x(t) = \cos t&\implies& x'(t)=-\sin t \\
+    y(t)=\sin^3 t &\implies& y'(t)=3\sin^2 t\cos t
+\end{darray}
+$$
+
+For $t\in[-\pi,\pi]$, we have that:
+$$
+y(t)=\sin^3t=-1 \implies t=-\frac{\pi}{2} \\
+y(t)=\sin^3t = 1\implies t=\frac{\pi}{2}.
+$$
+
+The graph for the curve $x(t)=\cos t, y(t)=\sin^3t$ over $\displaystyle-\frac{\pi}{2}\le t\le\frac{\pi}{2}$ is as follows:
+
+<center>
+
+![](assets/hw_11_3b_wrty.svg)
+
+</center>
+
+Integrating with respect to $y$ from $\displaystyle-\frac{\pi}{2}$ to $\displaystyle\frac{\pi}{2}$ yields the area of the right-hand side of the curve.
+
+Since the curve is symmetrical about the y-axis, the total area bounded by the curve is double the resulting area.
+
+$$
+\begin{align*}
+    2\int_{-\frac{\pi}{2}}^\frac{\pi}{2} x \dd y
+    &= 2\int_{-\frac{\pi}{2}}^\frac{\pi}{2} x(t)y'(t)\dd t \\
+    &= 2\int_{-\frac{\pi}{2}}^\frac{\pi}{2} \cos t (3\sin^2 t\cos t) \dd t \\
+    &= 2\cdot\frac{3\pi}{8} \\
+    &= \frac{3\pi}{4}
+\end{align*}
+\\
+$$
+
+
+
 
 
 > ### (c\) Find the volume of solid of revolution by revloving the curve along the y-axis.
