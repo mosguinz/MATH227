@@ -192,16 +192,47 @@ r = \sqrt{(-6)^2+0^2} = 6 \\
 $$
 
 
-> ## 5. Consider the polar equation $r=2+\cos(2\theta)$.
+## 5. Consider the polar equation $r=2+\cos(2\theta)$.
 
-> ### (a) Use Desmos to sketch the picture.
-> <center>
->
-> ![r=2+cos(2θ)](assets/hw_11_5a.svg)
->
-> </center>
+### (a) Use Desmos to sketch the picture.
+<center>
 
-> ### (b) Find the slope of the tangent line at $\theta=\pi/4$.
+![r=2+cos(2θ)](assets/hw_11_5a.svg)
+
+</center>
+
+### (b) Find the slope of the tangent line at $\theta=\pi/4$.
+
+For $r=f(\theta)=2+\cos(2\theta)$, its parametrized form $(x(\theta),y(\theta))$, where:
+
+For $r=f(\theta)$ where $f(\theta)=2+\cos(2\theta)$.
+
+
+$$
+\begin{align*}
+    x(\theta) &= f(\theta)\cos\theta \\
+    &= (2+\cos(2\theta))\cos\theta \\
+    &= 2\cos\theta+\cos(2\theta)\cos\theta \\
+    y(\theta) &= f(\theta)\sin\theta \\
+    &= (2+\cos(2\theta))\sin\theta \\
+    &= 2\sin\theta + \sin\theta\cos(2\theta).
+\end{align*}
+$$
+
+Then,
+$$
+x'(\theta) = -2\sin\theta-2\sin(2\theta)\cos\theta-\cos(2\theta)\sin\theta \\
+y'(\theta) = 2\cos\theta+\cos\theta\cos(2\theta)-2\sin\theta\sin(2\theta).
+$$
+
+So at $\displaystyle\theta = \frac{\pi}{4}$,
+$$
+\frac{\dd y}{\dd x} = \frac{y'(\frac{\pi}{4})}{x'(\frac{\pi}{4})}
+=\frac
+{2\cos\frac{\pi}{4}+\cos\frac{\pi}{4}\cos(2\frac{\pi}{4})-2\sin\frac{\pi}{4}\sin(2\frac{\pi}{4})}{-2\sin\frac{\pi}{4}-2\sin(2\frac{\pi}{4})\cos\frac{\pi}{4}-\cos(2\frac{\pi}{4})\sin\frac{\pi}{4}}
+=\frac{0}{-2\sqrt{2}}
+=0.
+$$
 
 > ### (c\) Find the area of the bounded region of the graph.
 
