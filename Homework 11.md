@@ -207,7 +207,6 @@ For $r=f(\theta)=2+\cos(2\theta)$, its parametrized form $(x(\theta),y(\theta))$
 
 For $r=f(\theta)$ where $f(\theta)=2+\cos(2\theta)$.
 
-
 $$
 \begin{align*}
     x(\theta) &= f(\theta)\cos\theta \\
@@ -243,15 +242,36 @@ $$
 > $$
 
 
-> ## 6. Consider the polar equation $r=\theta^2$.
+## 6. Consider the polar equation $r=\theta^2$.
 
-> ### (a) Use Desmos to sketch the picture for $0\le\theta\le4\pi$.
-> <center>
->
-> ![r=θ^2 on 0≤θ≤4π](assets/hw_11_6a.svg)
->
-> </center>
+### (a) Use Desmos to sketch the picture for $0\le\theta\le4\pi$.
+<center>
 
-> ### (b) Find the slope of the tangent line at $\theta=3\pi/4$.
+![r=θ^2 on 0≤θ≤4π](assets/hw_11_6a.svg)
+
+</center>
+
+### (b) Find the slope of the tangent line at $\theta=3\pi/4$.
+
+For $r=f(\theta)$ where $f(\theta)=\theta^2$,
+
+$$
+x(\theta) = f(\theta)\cos\theta = \theta^2\cos\theta \\
+y(\theta) = f(\theta)\sin\theta = \theta^2\sin\theta.
+$$
+
+Then,
+$$
+x'(\theta) = 2\theta\cos\theta-\theta^2\sin\theta \\
+y'(\theta) = 2\theta\sin\theta-\theta^2\cos\theta.
+$$
+
+So at $\theta=4\pi$,
+$$
+\frac{\dd y}{\dd x} = \frac{y'(4\pi)}{x'(4\pi)}
+= \frac{2(4\pi)\sin(4\pi)-(4\pi)^2\cos(4\pi)}
+{2(4\pi)\cos(4\pi)-(4\pi)^2\sin(4\pi)}
+=-2\pi.
+$$
 
 > ### (c\) Find the arc length of the curve for $0\le\theta\le4\pi$.
