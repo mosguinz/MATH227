@@ -203,8 +203,6 @@ $$
 
 ### (b) Find the slope of the tangent line at $\theta=\pi/4$.
 
-For $r=f(\theta)=2+\cos(2\theta)$, its parametrized form $(x(\theta),y(\theta))$, where:
-
 For $r=f(\theta)$ where $f(\theta)=2+\cos(2\theta)$.
 
 $$
