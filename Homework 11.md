@@ -234,7 +234,14 @@ $$
 =0.
 $$
 
-> ### (c\) Find the area of the bounded region of the graph.
+> ### (c\) Find the area of the bounded region of the > graph.
+>
+> $$
+> \begin{align*}
+>     A &= \frac{1}{2}\int_0^{2\pi}(2+\cos(2\theta))^2\dd\theta
+> \end{align*}
+> $$
+
 
 > ## 6. Consider the polar equation $r=\theta^2$.
 
