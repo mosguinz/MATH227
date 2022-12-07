@@ -233,7 +233,7 @@ $$
 =0.
 $$
 
-> ### (c\) Find the area of the bounded region of the > graph.
+> ### (c\) Find the area of the bounded region of the  graph.
 >
 > $$
 > \begin{align*}
@@ -275,3 +275,11 @@ $$
 $$
 
 > ### (c\) Find the arc length of the curve for $0\le\theta\le4\pi$.
+>
+> $$
+> \begin{align*}
+>     L &= \int_0^{4\pi}
+>     \sqrt{x'(\theta)^2+y'(\theta)^2} \dd\theta \\
+> \end{align*}
+> $$
+
