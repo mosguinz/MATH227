@@ -124,14 +124,14 @@ $$
 
 </center>
 
-### (b) Find the area of the bounded region.
-
-$$
-\begin{darray}{cc}
-    x(t) = \cos t&\implies& x'(t)=-\sin t \\
-    y(t)=\sin^3 t &\implies& y'(t)=3\sin^2 t\cos t
-\end{darray}
-$$
+> ### (b) Find the area of the bounded region.
+>
+> $$
+> \begin{darray}{cc}
+>     x(t) = \cos t&\implies& x'(t)=-\sin t \\
+>     y(t)=\sin^3 t &\implies& y'(t)=3\sin^2 t\cos t
+> \end{darray}
+> $$
 
 
 > ### (c\) Find the volume of solid of revolution by revloving the curve along the y-axis.
