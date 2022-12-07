@@ -59,7 +59,7 @@ y = t^4 \implies \frac{\dd y}{\dd t} = 4t^3 \\
 \therefore \frac{\dd y}{\dd x} = \frac{4t^3}{4t} = t^2 \\
 \implies\frac{\dd^2 y}{\dd x^2}
 =\frac{\frac{\dd}{\dd t}t^2}{4t}
-=\frac{2t}{4t} = \frac{t}{2}
+=\frac{2t}{4t} = \frac{1}{2}
 $$
 
 ## (b) For (i) above, find the equation of the tangent line at $\frac{\pi }{4}$
