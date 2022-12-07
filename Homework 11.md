@@ -138,15 +138,48 @@ $$
 
 > ### (d) Write down the arc length integral of this curve from $t=0$ to $t=\pi/2$.
 
-> ## 4. Convert the following points into polar coordinates:
+## 4. Convert the following points into polar coordinates:
 
-> ### (a) $(-4,4)$
+### (a) $(-4,4)$
 
-> ### (b) $(3,3\sqrt{3})$
+Point is in second quadrant.
 
-> ### (c\) $(\sqrt{3}, -1)$
+$$
+r = \sqrt{(-4)^2+4^2} = 4\sqrt{2} \\
+\theta = \pi + \tan^{-1}(-1) = \frac{3\pi}{4} \\
+\therefore (r,\theta) = \(4\sqrt{2}, \frac{3\pi}{4}\)
+$$
 
-> ### (d) $(-6,0)$
+### (b) $(3,3\sqrt{3})$
+
+Point is in first quadrant.
+
+$$
+r=\sqrt{3^2+3^2\sqrt{3}^2} = 6 \\
+\theta = \tan^{-1}\(\frac{3\sqrt{3}}{3}\) = \tan^{-1}\sqrt{3} = \frac{\pi}{3} \\
+\therefore (r, \theta) = \(6, \frac{\pi}{3}\)
+$$
+
+### (c\) $(\sqrt{3}, -1)$
+
+Point is in fourth quadrant.
+
+$$
+r = \sqrt{\sqrt{3}^2 + (-1)^2} = 2 \\
+\theta = \tan^{-1}\(\frac{-1}{\sqrt{3}}\) = -\frac{\pi}{6} \\
+\therefore (r,\theta) = \(2, -\frac{\pi}{6}\)
+$$
+
+### (d) $(-6,0)$
+
+Point is on the x-axis.
+
+$$
+r = \sqrt{(-6)^2+0^2} = 6 \\
+\theta =\pi \\
+\therefore (r,\theta) = (6,\pi)
+$$
+
 
 > ## 5. Consider the polar equation $r=2+\cos(2\theta)$.
 
