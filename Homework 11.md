@@ -79,7 +79,7 @@ $$
 Then, the equation of the tangent line to the curve at $\displaystyle t=\frac{\pi}{4}$ is
 $$
 y-1 = \sqrt{2}(x-\sqrt{2}) \\
-y = \sqrt{2}x + 3.
+y = \sqrt{2}x - 1.
 $$
 
 ## 2. Find the arc length of the curve $x=t^3, y=\frac{3t^2}{2}$ when $0\le t\le\sqrt{3}$.
