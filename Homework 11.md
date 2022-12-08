@@ -106,7 +106,7 @@ $$
 \end{darray}
 \\
 \begin{align*}
-    L = 3\int_0^{\sqrt{3}}t\sqrt{t^2+1}\dd t
+    \therefore L = 3\int_0^{\sqrt{3}}t\sqrt{t^2+1}\dd t
     &= 3\int_1^4 t\sqrt{u} \frac{\dd u}{2t} \\
     &= \frac{3}{2}\int_1^4 \sqrt{u}\dd u \\
     &= \frac{3}{2} \[\frac{2u^{3/2}}{3}\]_1^4 \\
