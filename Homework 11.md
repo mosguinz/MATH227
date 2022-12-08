@@ -319,12 +319,12 @@ x'(\theta) = 2\theta\cos\theta-\theta^2\sin\theta \\
 y'(\theta) = 2\theta\sin\theta-\theta^2\cos\theta.
 $$
 
-So at $\theta=4\pi$,
+As such, the slope of the tangent line at $\displaystyle\theta=\frac{3\pi}{4}$ is
 $$
 \frac{\dd y}{\dd x} = \frac{y'(4\pi)}{x'(4\pi)}
-= \frac{2(4\pi)\sin(4\pi)-(4\pi)^2\cos(4\pi)}
-{2(4\pi)\cos(4\pi)-(4\pi)^2\sin(4\pi)}
-=-2\pi.
+= \frac{2(\frac{3\pi}{4})\sin(\frac{3\pi}{4})-(\frac{3\pi}{4})^2\cos(\frac{3\pi}{4})}
+{2(\frac{3\pi}{4})\cos(\frac{3\pi}{4})-(\frac{3\pi}{4})^2\sin(\frac{3\pi}{4})}
+=-1.
 $$
 
 > ### (c\) Find the arc length of the curve for $0\le\theta\le4\pi$.
