@@ -149,22 +149,21 @@ The graph for the curve $x(t)=\cos t, y(t)=\sin^3t$ over $\displaystyle-\frac{\p
 
 Integrating with respect to $y$ from $\displaystyle-\frac{\pi}{2}$ to $\displaystyle\frac{\pi}{2}$ yields the area of the right-hand side of the curve.
 
-Since the curve is symmetrical about the y-axis, the total area bounded by the curve is double the resulting area.
-
 $$
 \begin{align*}
-    2\int_{-\frac{\pi}{2}}^\frac{\pi}{2} x \dd y
-    &= 2\int_{-\frac{\pi}{2}}^\frac{\pi}{2} x(t)y'(t)\dd t \\
-    &= 2\int_{-\frac{\pi}{2}}^\frac{\pi}{2} \cos t (3\sin^2 t\cos t) \dd t \\
-    &= 2\cdot\frac{3\pi}{8} \\
-    &= \frac{3\pi}{4}
+    \int_{-\frac{\pi}{2}}^\frac{\pi}{2} x \dd y
+    &= \int_{-\frac{\pi}{2}}^\frac{\pi}{2} x(t)y'(t)\dd t \\
+    &= \int_{-\frac{\pi}{2}}^\frac{\pi}{2} \cos t (3\sin^2 t\cos t) \dd t \\
+    &= \frac{3\pi}{8}
 \end{align*}
 \\
 $$
 
+Since the curve is symmetrical about the y-axis, the total area bounded by the curve $A$ is double the resulting area.
 
-
-
+$$
+A=2\cdot\frac{3\pi}{8}=\frac{3\pi}{4}
+$$
 
 > ### (c\) Find the volume of solid of revolution by revloving the curve along the y-axis.
 
