@@ -263,13 +263,36 @@ $$
 =0.
 $$
 
-> ### (c\) Find the area of the bounded region of the  graph.
->
-> $$
-> \begin{align*}
->     A &= \frac{1}{2}\int_0^{2\pi}(2+\cos(2\theta))^2\dd\theta
-> \end{align*}
-> $$
+### (c\) Find the area of the bounded region of the  graph.
+
+$$
+\begin{align*}
+    A &= \frac{1}{2}\int_0^{2\pi}(2+\cos(2\theta))^2\dd\theta \\
+    &= \frac{1}{2}\int_0^{2\pi}
+    4 + \cos^2(2\theta)+4\cos(2\theta) \dd\theta
+\end{align*}
+\\
+\begin{darray}{cc}
+    u = 2\theta &\implies& \dd u =2\dd\theta \\
+    &\iff& \dd\theta = \frac{1}{2}\dd u \\
+    \theta = 0 &\implies& u=2(0)=0 \\
+    \theta = 2\pi &\implies& u = 2(2\pi) = 4\pi
+\end{darray}
+\\
+\begin{align*}
+    \frac{1}{2}\int_0^{2\pi}
+    4 + \cos^2(2\theta)+4\cos(2\theta) \dd\theta
+    &= \frac{1}{4}\int_0^{4\pi}
+    4+\cos^2(u)+4\cos u\dd u \\
+    &= \frac{1}{4}\int_0^{4\pi}
+    4+\frac{1}{2}\cos(2u)+\frac{1}{2}+4\cos u\dd u \\
+    &= \frac{1}{8}\int_0^{4\pi}
+    8+\cos(2u)+1+8\cos u\dd u \\
+    &=\frac{1}{8}\[9u +\frac{\sin(2u)}{2}+8\sin u\]_0^{4\pi} \\
+    &= \frac{1}{8}(36\pi) \\
+    &= \frac{9\pi}{2}
+\end{align*}
+$$
 
 
 ## 6. Consider the polar equation $r=\theta^2$.
