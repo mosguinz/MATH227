@@ -165,7 +165,19 @@ $$
 A=2\cdot\frac{3\pi}{8}=\frac{3\pi}{4}
 $$
 
-> ### (c\) Find the volume of solid of revolution by revloving the curve along the y-axis.
+### (c\) Find the volume of solid of revolution by revloving the curve along the y-axis.
+
+$$
+\begin{align*}
+    V=\pi\int_{-\frac{\pi}{2}}^{\frac{\pi}{2}}
+    x^2\dd y
+    &= \pi\int_{-\frac{\pi}{2}}^{\frac{\pi}{2}}
+    x(t)^2y'(t)\dd t \\
+    &= \pi\int_{-\frac{\pi}{2}}^{\frac{\pi}{2}}
+    \cos^2t(3\sin^2 t\cos t)\dd t \\
+    &= \frac{4\pi}{5}
+\end{align*}
+$$
 
 ### (d) Write down the arc length integral of this curve from $t=0$ to $t=\pi/2$.
 
