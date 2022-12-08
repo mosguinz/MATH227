@@ -328,12 +328,33 @@ $$
 = 1-\frac{16}{8+3\pi}.
 $$
 
-> ### (c\) Find the arc length of the curve for $0\le\theta\le4\pi$.
->
-> $$
-> \begin{align*}
->     L &= \int_0^{4\pi}
->     \sqrt{x'(\theta)^2+y'(\theta)^2} \dd\theta \\
-> \end{align*}
-> $$
+### (c\) Find the arc length of the curve for $0\le\theta\le4\pi$.
+
+$$
+\begin{align*}
+    L &= \int_0^{4\pi}
+    \sqrt{x'(\theta)^2+y'(\theta)^2} \dd\theta \\
+    &= \int_0^{4\pi}
+    \sqrt{(2\theta\cos\theta-\theta^2\sin\theta)^2+(2\theta\sin\theta+\theta^2\cos\theta)^2} \dd\theta \\
+    &= \int_0^{4\pi}
+    \sqrt{\theta^2(\theta^2+4)}\dd\theta \\
+    &= \int_0^{4\pi}\theta\sqrt{\theta^2+4}\dd\theta
+\end{align*}
+\\
+\begin{darray}{ccl}
+    u = \theta^2+4 &\implies& \dd u =2\theta\dd\theta \\
+    &\iff& \dd\theta = \frac{\dd u}{2\theta} \\
+    \theta = 0 &\implies& u=0^2+4=4 \\
+    \theta = 4\pi &\implies& u = (4\pi)^2+4=4+16\pi^2
+\end{darray}
+\\
+\begin{align*}
+    \therefore L=
+    \int_0^{4\pi}\theta\sqrt{\theta^2+4}\dd\theta
+    &= \int_4^{4+16\pi^2}\theta\sqrt{u}\frac{\dd u}{2\theta} \\
+    &= \frac{1}{2}\int_4^{4+16\pi^2}\sqrt{u}\dd u \\
+    &= \frac{1}{2}\[\frac{2u^{3/2}}{3}\]_4^{4+16\pi^2} \\
+    &= \frac{8}{3}((1-4\pi^2)^{3/2}-1)
+\end{align*}
+$$
 
