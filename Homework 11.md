@@ -254,7 +254,7 @@ x'(\theta) = -2\sin\theta-2\sin(2\theta)\cos\theta-\cos(2\theta)\sin\theta \\
 y'(\theta) = 2\cos\theta+\cos\theta\cos(2\theta)-2\sin\theta\sin(2\theta).
 $$
 
-So at $\displaystyle\theta = \frac{\pi}{4}$,
+As such, the slope of the tangent line at $\displaystyle\theta=\frac{\pi}{4}$ is
 $$
 \frac{\dd y}{\dd x} = \frac{y'(\frac{\pi}{4})}{x'(\frac{\pi}{4})}
 =\frac
