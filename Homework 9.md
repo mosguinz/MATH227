@@ -32,11 +32,11 @@ $$
 
 Determine if the following series is convergent or divergent. You can use any tests you have learnt so far.
 
-(a) $\sum_{n=1}^\infty \sin(n\frac{\pi}{2})$
+### (a) $\sum_{n=1}^\infty \sin(n\frac{\pi}{2})$
 
 $\displaystyle\lim_{n\to\infty}\sin\(n\frac{\pi}{2}\)$ does not exist. By divergence test, the series diverges.
 
-(b) $\sum_{n=2}^\infty \frac{1}{n(\ln n)^2}$
+### (b) $\sum_{n=2}^\infty \frac{1}{n(\ln n)^2}$
 
 Let $\displaystyle f(x) = \frac{1}{x\ln^2x}$.
 
@@ -70,7 +70,7 @@ $$
 
 Since $\displaystyle\int_2^\infty\frac{1}{x(\ln x)^2}\dd x = \frac{1}{\ln 2} < \infty$, the series is convergent.
 
-(c\) $\sum_{n=1}^\infty \frac{1}{n^{3/2}+1}$
+### (c\) $\sum_{n=1}^\infty \frac{1}{n^{3/2}+1}$
 
 Let $\displaystyle a_n = \frac{1}{n^{3/2}+1}$ and $\displaystyle b_n = \frac{1}{n^{3/2}}$.
 
@@ -100,7 +100,7 @@ $$
 
 By integral test, $\displaystyle \sum_{n=1}^\infty \frac{1}{n^{3/2}}$ is convergent. Subsequently, by the limit comparison test, the series $\displaystyle\sum_{n=1}^\infty \frac{1}{n^{3/2}+1}$ must also be convergent.
 
-(d) $\sum_{n=1}^\infty \frac{\sqrt{n}}{(n+1)^2}$
+### (d) $\sum_{n=1}^\infty \frac{\sqrt{n}}{(n+1)^2}$
 
 Let $\displaystyle a_n = \frac{\sqrt{n}}{(n+1)^2} = \frac{n^{1/2}}{n^2+2n+1}$ and $\displaystyle b_n = \frac{1}{n^{3/2}}$.
 
@@ -114,7 +114,7 @@ Since $\displaystyle b_n = \frac{1}{n^{3/2}}$ is nonnegative and decreasing, we 
 
 From (c\), we concluded that $\displaystyle \sum_{n=1}^\infty\frac{1}{n^{3/2}}$ is convergent by integral test. Subsequently, by the limit comparison test, the series $\displaystyle\sum_{n=1}^\infty \frac{\sqrt{n}}{(n+1)^2}$ must also be convergent.
 
-(e) $\sum_{n=2}^\infty \frac{(\ln n)^2}{n}$
+### (e) $\sum_{n=2}^\infty \frac{(\ln n)^2}{n}$
 
 Since
 $$
@@ -140,7 +140,7 @@ $$
 
 Since $\displaystyle\sum_{n=2}^\infty\frac{1}{n}$ is divergent, by comparison test $\displaystyle\sum_{n=2}^\infty\frac{(\ln n)^2}{n}$ must also be divergent.
 
-(f) $\sum_{n=1}^\infty \frac{n^2}{(n^2+10)^2}$
+### (f) $\sum_{n=1}^\infty \frac{n^2}{(n^2+10)^2}$
 
 Let $\displaystyle a_n = \frac{n^2}{(n^2+10)^2} = \frac{n^2}{n^4 +20n^2 + 100}$ and $\displaystyle b_n =\frac{1}{n^2}$.
 
@@ -152,7 +152,7 @@ $$
 
 Since $\displaystyle \sum_{n=1}^\infty \frac{1}{n^2}$ converges, then by limit comparison $\displaystyle \sum_{n=1}^\infty \frac{n^2}{(n^2+10)^2}$ also converges.
 
-(g) $\sum_{n=1}^\infty \frac{n\ln n}{n^3+2}$
+### (g) $\sum_{n=1}^\infty \frac{n\ln n}{n^3+2}$
 
 For sufficiently large $n$,
 $$
@@ -169,7 +169,7 @@ $$
 
 For small values of $\epsilon>0$, the series $\displaystyle\sum_{n=1}^\infty\frac{1}{n^{2-\epsilon}}$ converges. As such, by limit comparison test $\displaystyle\sum_{n=1}^\infty \frac{n\ln n}{n^3+2}$ converges.
 
-(h) $\sum_{n=2}^\infty \frac{1}{n^2(\ln n)^2}$
+### (h) $\sum_{n=2}^\infty \frac{1}{n^2(\ln n)^2}$
 
 $$
 \ln e = 1 \implies \ln n > 1 ,\forall n>3
@@ -190,7 +190,7 @@ Since $\displaystyle\sum_{n=2}^\infty\frac{1}{n^2}$ converges, by comparison tes
 
 State whether each of the following series converges absolutely, conditionally, or not at all.
 
-(251) $\displaystyle \sum_{n=1}^\infty (-1)^{n+1}\frac{\sqrt{n}+1}{\sqrt{n}+3}$
+### (251) $\displaystyle \sum_{n=1}^\infty (-1)^{n+1}\frac{\sqrt{n}+1}{\sqrt{n}+3}$
 
 Let $\displaystyle a_n = \frac{\sqrt{n}+1}{\sqrt{n}+3}$.
 
@@ -201,7 +201,7 @@ $$
 
 By divergence test, the series diverges.
 
-(252) $\displaystyle \sum_{n=1}^\infty (-1)^{n+1}\frac{1}{\sqrt{n+3}}$
+### (252) $\displaystyle \sum_{n=1}^\infty (-1)^{n+1}\frac{1}{\sqrt{n+3}}$
 
 Let $\displaystyle a_n = \frac{1}{\sqrt{n+3}}$.
 
@@ -240,7 +240,7 @@ By integral test, we find that the sum of the absolute values of the terms do no
 
 As such, we conclude that $\displaystyle \sum_{n=1}^\infty (-1)^{n+1}\frac{1}{\sqrt{n+3}}$ exhibits conditional convergence.
 
-(260) $\displaystyle \sum_{n=1}^\infty (-1)^{n+1}\sin^2(1/n)$
+### (260) $\displaystyle \sum_{n=1}^\infty (-1)^{n+1}\sin^2(1/n)$
 
 Since $\displaystyle\sin x\le x$ for $x>0$. Then, where $a_n=\sin^2(1/n)$, we have that $0\le a_{n+1}\le a_n$ for $n\ge1$.
 
@@ -268,7 +268,7 @@ $$
 
 Since $\displaystyle\sum_{n=1}^\infty\frac{1}{n^2}$ converges, by comparison test $\displaystyle\sum_{n=1}^\infty\sin^2\frac{1}{n}$ also converges. As such, we conclude that $\displaystyle\sum_{n=1}^\infty(-1)^{n+1}\sin^2(1/n)$ exhibits absolute convergence.
 
-(261) $\displaystyle \sum_{n=1}^\infty (-1)^{n+1}\cos^2(1/n)$
+### (261) $\displaystyle \sum_{n=1}^\infty (-1)^{n+1}\cos^2(1/n)$
 
 $$
 \lim_{n\to\infty}\cos^2(1/n)
