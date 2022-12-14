@@ -29,9 +29,9 @@ $$
 **Mos Kullathon**
 921425216
 
-1\. Find the following limits
+## 1. Find the following limits
 
-a. $\lim_{n\to\infty}\frac{(-1)^{n^3}}{n}$
+### a. $\lim_{n\to\infty}\frac{(-1)^{n^3}}{n}$
 
 By squeeze theorem:
 $$
@@ -45,7 +45,7 @@ $$
 $$
 
 
-b. $\lim_{n\to\infty}\frac{n^2+1}{n+100}$
+### b. $\lim_{n\to\infty}\frac{n^2+1}{n+100}$
 
 $$
 \deg(n^2+1) > \deg(n+100)
@@ -53,7 +53,7 @@ $$
 \therefore \lim_{n\to\infty}\frac{n^2+1}{n+100} = \infty
 $$
 
-c. $\lim_{n\to\infty}(\frac{1}{5e})^n$
+### c. $\lim_{n\to\infty}(\frac{1}{5e})^n$
 
 $$
 \lim_{n\to\infty}\(\frac{1}{5e}\)^n
@@ -62,7 +62,7 @@ $$
 = 0
 $$
 
-d. $\lim_{n\to\infty}\frac{n^{100}}{e^{0.01n}}$
+### d. $\lim_{n\to\infty}\frac{n^{100}}{e^{0.01n}}$
 
 The polynomial $n^{100}$ grows slower than the exponential $e^{0.01n}$.
 
@@ -70,7 +70,7 @@ $$
 \therefore \lim_{n\to\infty}\frac{n^{100}}{e^{0.01n}} = 0
 $$
 
-e. $\lim_{n\to\infty}(1+\frac{1}{n})(2+\frac{\cos n}{3n^2})$
+### e. $\lim_{n\to\infty}(1+\frac{1}{n})(2+\frac{\cos n}{3n^2})$
 
 $$
 \begin{align*}
@@ -109,7 +109,7 @@ $$
 \end{align*}
 $$
 
-f. $\lim_{n\to\infty}\frac{\ln\sqrt{n+1}}{n^2}$
+### f. $\lim_{n\to\infty}\frac{\ln\sqrt{n+1}}{n^2}$
 
 $$
 \begin{align*}
@@ -121,27 +121,27 @@ $$
 \end{align*}
 $$
 
-g. $\lim_{n\to\infty}\frac{n!}{n^n}$
+### g. $\lim_{n\to\infty}\frac{n!}{n^n}$
 
 $n^n$ grows faster than $n!$.
 $$
 \therefore\lim_{n\to\infty}\frac{n!}{n^n} =0
 $$
 
-h. $\lim_{n\to\infty}2^{1/n}$
+### h. $\lim_{n\to\infty}2^{1/n}$
 
 $$
 \lim_{n\to\infty}2^{1/n} = 2^{\lim_{n\to\infty}1/n} = 2^0 = 1
 $$
 
-i. $\lim_{n\to\infty}2^{n/(n^2+1)}$
+### i. $\lim_{n\to\infty}2^{n/(n^2+1)}$
 
 $$
 \lim_{n\to\infty}2^{n/(n^2+1)} = 2^{\lim_{n\to\infty}n/(n^2+1)}
 =2^0=1
 $$
 
-j. $\lim_{n\to\infty}n^{1/n}$
+### j. $\lim_{n\to\infty}n^{1/n}$
 
 $$
     \lim_{n\to\infty}n^{1/n}
@@ -151,7 +151,7 @@ $$
     = 1
 $$
 
-k. $\lim_{n\to\infty}(-1)^n \tan\frac{n}{n^5-1}$
+### k. $\lim_{n\to\infty}(-1)^n \tan\frac{n}{n^5-1}$
 
 By squeeze theorem:
 $$
@@ -167,9 +167,9 @@ $$
     \lim_{n\to\infty}(-1)^n\tan\frac{n}{n^5-1} = 0.
 $$
 
-2\. Evaluate the following infinite series
+## 2\. Evaluate the following infinite series
 
-(i) $\sum_{n=1}^\infty(\frac{2}{5})^n$
+### (i) $\sum_{n=1}^\infty(\frac{2}{5})^n$
 
 The common ratio $r$ is
 $$
@@ -189,7 +189,7 @@ $$
 \end{align*}
 $$
 
-(ii) $\sum_{n=2}^\infty(-1)^n\frac{5}{7^n}$
+### (ii) $\sum_{n=2}^\infty(-1)^n\frac{5}{7^n}$
 
 The common ratio $r$ is
 $$
@@ -212,7 +212,7 @@ $$
 $$
 
 
-(iii) $4 + \frac{3}{10} + \frac{3}{10^2} + \frac{3}{10^3} + \cdots$
+### (iii) $4 + \frac{3}{10} + \frac{3}{10^2} + \frac{3}{10^3} + \cdots$
 
 $$
 \begin{align*}
@@ -245,7 +245,7 @@ $$
 \end{align*}
 $$
 
-(iv) $\sum_{n=1}^\infty(\ln2)^n,\quad\sum_{n=1}^\infty(\ln3)^n$ (Be careful of the convergence)
+### (iv) $\sum_{n=1}^\infty(\ln2)^n,\quad\sum_{n=1}^\infty(\ln3)^n$ (Be careful of the convergence)
 
 For $\displaystyle\sum_{n=1}^\infty(\ln2)^n$:
 
